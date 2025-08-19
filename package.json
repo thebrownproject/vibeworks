@@ -1,0 +1,12 @@
+{
+  "name": "claude-code-master-template",
+  "version": "1.0.0",
+  "description": "Comprehensive master template for Claude Code projects with BMAD Method and MCP integrations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": ["claude", "template", "bmad", "mcp"],
+  "author": "Claude Code Template",
+  "license": "MIT"
+}

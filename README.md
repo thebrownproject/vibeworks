@@ -1,384 +1,360 @@
-# 🤖 Claude Code Master Template
+# 🏗️ VibeWorks
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Claude Code](https://img.shields.io/badge/Claude_Code-Compatible-blue.svg)](https://docs.anthropic.com/en/docs/claude-code)
-[![BMAD Method](https://img.shields.io/badge/BMAD_Method-Integrated-green.svg)](https://github.com/thebrownproject/BMAD-METHOD)
-[![Context7](https://img.shields.io/badge/Context7-Ready-orange.svg)](https://context7.ai)
-[![Serena](https://img.shields.io/badge/Serena-Integrated-purple.svg)](https://github.com/thebrownproject/serena)
-[![Playwright](https://img.shields.io/badge/Playwright-Ready-red.svg)](https://playwright.dev)
-[![Sequential-thinking](https://img.shields.io/badge/Sequential_Thinking-Ready-blue.svg)](https://github.com/modelcontextprotocol/servers)
-[![Supabase](https://img.shields.io/badge/Supabase-Ready-green.svg)](https://supabase.com)
-[![Brave Search](https://img.shields.io/badge/Brave_Search-Ready-orange.svg)](https://brave.com/search)
+[![Next.js](https://img.shields.io/badge/Next.js-14+-black.svg)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
+[![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-green.svg)](https://supabase.com/)
+[![AI Powered](https://img.shields.io/badge/AI-Gemini%202.5%20Pro-orange.svg)](https://ai.google.dev/)
 
-> **The ultimate foundation for AI-assisted development projects** - A comprehensive, production-ready template that integrates modern AI development methodologies with battle-tested configurations and workflows.
+> **AI-Powered Project Management for Architecture Offices** - Transforming "vibes-based" project management into systematic, data-informed planning while respecting familiar workflows.
 
 ---
 
 ## 📋 Table of Contents
 
-- [🚀 Quick Start](#-quick-start)
-- [✨ Features](#-features)
-- [🏗️ What's Included](#️-whats-included)
-- [📁 Repository Structure](#-repository-structure)
-- [🔧 Configuration Options](#-configuration-options)
-- [📚 Development Methodologies](#-development-methodologies)
-- [🛠️ Advanced Features](#️-advanced-features)
-- [📖 Documentation](#-documentation)
+- [🎯 Project Overview](#-project-overview)
+- [💡 The Problem](#-the-problem)
+- [✨ Our Solution](#-our-solution)
+- [🚀 Key Features](#-key-features)
+- [🛠️ Technology Stack](#️-technology-stack)
+- [📱 Live Demo](#-live-demo)
+- [⚡ Quick Start](#-quick-start)
+- [📁 Project Structure](#-project-structure)
+- [🧪 Development](#-development)
+- [🚀 Deployment](#-deployment)
+- [🎨 Screenshots](#-screenshots)
+- [📊 Impact & Validation](#-impact--validation)
+- [🧑‍💻 Career Transition Story](#-career-transition-story)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 
 ---
 
-## 🚀 Quick Start
+## 🎯 Project Overview
 
-Get up and running with the Claude Code Master Template in 3 simple steps:
+VibeWorks is an AI-powered project management system designed specifically for architecture offices. Born from real workplace challenges, it transforms the typical "vibes-based" project management approach into systematic, data-informed planning while maintaining the familiar workflows that architects already understand.
 
-### 1. Clone and Setup
+**Dual Purpose:**
+- **🏢 Workplace Solution**: Actively solving project management challenges at a Victorian architecture office
+- **💼 Portfolio Demonstration**: Showcasing modern full-stack development skills during Fraser Brown's transition from architecture to IT
+
+**Real-World Validation**: Unlike theoretical portfolio projects, VibeWorks is validated through actual workplace implementation, user adoption, and measurable productivity improvements.
+
+---
+
+## 💡 The Problem
+
+Architecture offices across Victoria operate with "vibes-based" project management that creates significant operational challenges:
+
+### 🚨 Critical Pain Points
+- **📞 Documentation Gap**: Verbal requests and phone calls create undocumented urgent work
+- **👥 Visibility Crisis**: Management lacks real-time insight into "hours to next stage"
+- **📈 Forecasting Impossibility**: Capacity planning relies on guesswork without systematic time tracking
+- **🔧 Tool Resistance**: Previous attempts with platforms like Notion failed due to complexity
+
+### 📊 Quantified Impact
+- Projects consistently delayed due to urgent interruptions, not poor estimates
+- Monday morning capacity assessment requires manual polling of staff
+- Communication gaps occur when phone calls bypass documentation systems
+- Stressed staff avoid updating systems during busy periods
+
+---
+
+## ✨ Our Solution
+
+VibeWorks addresses these challenges through a streamlined digital whiteboard that replicates the physical office organization, enhanced by AI assistance for rapid task capture.
+
+### 🎯 Core Concept
+- **📋 Digital Whiteboard Replica**: Mirrors existing physical whiteboard with zero learning curve
+- **🤖 AI Chat Overlay**: Simple chatbot for 30-second task creation and project queries
+- **⚡ Essential Features Only**: Focused on core workflow needs without feature bloat
+
+### 🏗️ Familiar Organization
+**5-Section Digital Whiteboard:**
+- **Town Planning** - Early stage regular projects
+- **Working Drawings** - Documentation stage regular projects
+- **Harnest TP** - Harnest client town planning projects
+- **Harnest WD** - Harnest client working drawings projects
+- **Commercial Shop Fitouts** - All shop fitout projects
+
+---
+
+## 🚀 Key Features
+
+### 🤖 AI-Powered Task Management
+- **Email Processing**: Copy-paste emails for instant task extraction
+- **Project Identification**: AI identifies relevant projects and suggests assignments
+- **Time Estimation**: Smart estimates based on project stage and historical data
+
+### 📊 7-Stage Project Lifecycle
+- **Concept Design** → **Schematic Design** → **Design Development**
+- **Construction Documentation** → **Building Permit** → **Tender Documentation** → **Final Working Drawings**
+- Real-time "hours to next stage" visibility
+
+### 🎨 CAD-Familiar Interface
+- **Ribbon-style Navigation**: Familiar patterns matching Revit/AutoCAD
+- **Properties Panels**: Project cards with intuitive organization
+- **Reduced Resistance**: Zero learning curve for CAD-comfortable staff
+
+### ⏰ Monday Morning Dashboard
+- **Real-time Capacity**: Instant visibility into staff availability
+- **Project Status**: Complete overview of all active projects
+- **Management Insights**: Eliminates manual polling and guesswork
+
+---
+
+## 🛠️ Technology Stack
+
+### 🎨 Frontend Excellence
+- **⚛️ Next.js 14**: App Router with server-side rendering and performance optimization
+- **📘 TypeScript**: Type safety and modern development patterns
+- **🎨 Shadcn/ui + Tailwind CSS**: Accessible component design system
+- **🔄 Zustand**: Lightweight state management
+
+### 🔧 Backend & Services
+- **🗄️ Supabase PostgreSQL**: Database with Row Level Security
+- **🔐 Supabase Auth**: Authentication and session management
+- **⚡ Supabase Real-time**: Collaborative features and live updates
+- **🤖 Vercel AI SDK**: AI integration framework
+- **🧠 Google Gemini 2.5 Pro**: AI processing and natural language understanding
+
+### 🚀 Development & Deployment
+- **☁️ Vercel**: Hosting and serverless functions
+- **🧪 Vitest**: Unit testing framework
+- **🎭 Playwright**: End-to-end testing
+- **✅ ESLint + Prettier**: Code quality and formatting
+
+---
+
+## 📱 Live Demo
+
+🔗 **[View Live Application](https://vibeworks.vercel.app)** *(Coming Soon)*
+
+*Current Status: MVP Development Phase - Workplace testing in progress*
+
+---
+
+## ⚡ Quick Start
+
+### Prerequisites
+- Node.js 18+ with npm
+- Supabase CLI for local development
+- Git for version control
+
+### Installation
 
 ```bash
-# Clone the master template
-git clone git@github.com:thebrownproject/claude-code-master-template.git my-new-project
-cd my-new-project
+# Clone the repository
+git clone https://github.com/thebrownproject/vibeworks.git
+cd vibeworks
 
-# Remove the original git history and start fresh
-rm -rf .git
-git init
+# Install dependencies
+npm install
+
+# Setup environment variables
+cp .env.example .env.local
+# Edit .env.local with your Supabase and AI API keys
+
+# Initialize Supabase
+npx supabase init
+npx supabase start
+
+# Start development server
+npm run dev
 ```
 
-### 2. Choose Your Configuration
+### Environment Variables
 
 ```bash
-# For Python projects (recommended starting point)
-cp claude-configs/claude-python.md CLAUDE.md
-
-# For other languages - adapt the generic CLAUDE.md or create new configs
-# See claude-configs/ directory for available options
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
+GOOGLE_AI_API_KEY=your_gemini_api_key
 ```
 
-### 3. Initialize Your Project
+---
+
+## 📁 Project Structure
+
+```
+vibeworks/
+├── 📄 README.md                    # This file
+├── 📋 CLAUDE.md                    # Claude Code project instructions
+├── 📦 package.json                 # Dependencies and scripts
+├── 📂 src/
+│   ├── 📱 app/                     # Next.js App Router
+│   │   ├── 🔌 api/                # API routes (projects, tasks, ai/chat)
+│   │   ├── 📋 project-board/      # Main whiteboard page
+│   │   ├── ✅ task-board/         # Cross-project task view
+│   │   ├── 👥 staff-allocation/   # Staff capacity page
+│   │   └── 🎨 layout.tsx          # Root layout with sidebar navigation
+│   ├── 🧩 components/
+│   │   ├── 🎨 ui/                 # Shadcn/ui base components
+│   │   ├── 📋 project-board/      # Whiteboard section components
+│   │   ├── 🖼️ modals/            # Project/task detail modals
+│   │   ├── 🤖 ai-chat/           # AI chat overlay
+│   │   └── 🔄 common/            # Shared components
+│   ├── 🗃️ stores/                # Zustand state management
+│   ├── 📚 lib/                    # API clients and utilities
+│   ├── 📝 types/                  # TypeScript definitions
+│   └── 🎣 hooks/                  # Custom React hooks
+├── 🗄️ supabase/                  # Database migrations and schemas
+├── 📖 docs/                       # Project documentation
+├── 🖼️ public/                    # Static assets
+└── ⚙️ claude-configs/             # Claude Code configurations
+```
+
+---
+
+## 🧪 Development
+
+### Available Scripts
 
 ```bash
-# Update BMAD Method to latest version (recommended)
-npx bmad-method@latest install
+# Development
+npm run dev              # Start development server
+npm run build           # Build for production
+npm run start           # Start production server
 
-# Initialize your git repository
-git add .
-git commit -m "Initial commit: Set up from Claude Code Master Template"
+# Code Quality
+npm run lint            # Run ESLint
+npm run type-check      # Run TypeScript compiler
 
-# Add your remote and push
-git remote add origin YOUR_REPO_URL
-git push -u origin main
+# Database
+npx supabase start      # Start local Supabase
+npx supabase db reset   # Reset local database
+npx supabase db push    # Push schema changes
+
+# Testing
+npm run test            # Run unit tests
+npm run test:e2e        # Run Playwright tests
+npm run test:watch      # Run tests in watch mode
 ```
 
-🎉 **You're ready to go!** Your project now includes professional AI development workflows, comprehensive documentation management, and battle-tested configurations.
+### Development Workflow
+
+1. **Feature Development**: Create feature branch from `main`
+2. **Local Testing**: Use local Supabase instance for development
+3. **Code Quality**: ESLint and TypeScript strict mode compliance
+4. **Testing**: Unit and integration tests required
+5. **Pull Request**: Code review and automated testing
+6. **Deployment**: Automatic deployment via Vercel
 
 ---
 
-## ✨ Features
+## 🚀 Deployment
 
-### 🎯 **AI-First Development**
-- **BMAD Method Integration**: Pre-configured with 10+ specialized AI agents for planning, development, and QA
-- **Context7 Documentation**: Intelligent local-first documentation caching and retrieval system
-- **Serena Semantic Analysis**: Token-efficient code navigation with hybrid workflow (Serena discovers → Claude Code edits)
-- **Playwright Browser Automation**: AI-powered browser testing and web interactions using accessibility tree
-- **Sequential-thinking**: Structured problem-solving with dynamic thought processes and revision capabilities
-- **Supabase Integration**: Complete database management, branching, and project operations
-- **Brave Search**: Comprehensive web search with fresh, unbiased results complementing built-in search
+### Production Environment
+- **Hosting**: Vercel with automatic deployments from `main` branch
+- **Database**: Supabase managed PostgreSQL with Sydney region
+- **Domain**: Custom domain with SSL certificate
+- **Monitoring**: Vercel Analytics and Supabase dashboard
 
-### 🛠️ **Production-Ready Configuration**
-- **261+ Configuration Files**: Comprehensive setup covering all aspects of modern development
-- **Multi-Language Support**: Extensible language-specific configurations (Python included)
-- **Security-First**: Carefully curated permissions and secure development practices
-
-### 📚 **Documentation Excellence**
-- **Smart Documentation Management**: 4 specialized Context7 commands for documentation workflows
-- **Methodology Integration**: Compatible with leading AI development frameworks
-- **Living Documentation**: Templates that evolve with your project
+### Environment Configuration
+- **Development**: `localhost:3000` with local Supabase
+- **Production**: `vibeworks.vercel.app` with production Supabase
+- **Environment Variables**: Managed through Vercel dashboard
 
 ---
 
-## 🏗️ What's Included
+## 🎨 Screenshots
 
-| Component | Description | Files | Key Features |
-|-----------|-------------|-------|--------------|
-| **BMAD Method** | Agile AI-driven development framework | 70+ files | Analyst, PM, Architect, Dev, QA agents |
-| **Context7 Integration** | Documentation management system | 5 commands | Local-first, intelligent caching, API integration |
-| **Serena Integration** | Token-efficient semantic code analysis | Pre-configured | Hybrid workflow, symbol navigation, memory system |
-| **Claude Configurations** | Language-specific development configs | 3+ configs | Python, extensible framework for other languages |
-| **MCP Server Setup** | Model Context Protocol integration | 6 servers | Context7, Serena, Playwright, Sequential-thinking, Supabase, Brave Search |
-| **Permissions System** | Security and development permissions | Curated settings | File ops, dev tools, web access, package managers |
+*Screenshots coming soon as MVP development progresses*
 
----
+### 📋 Digital Whiteboard
+*Main interface showing the 5-section project organization*
 
-## 📁 Repository Structure
+### 🤖 AI Chat Interface
+*Simple overlay for rapid task creation and project queries*
 
-```
-claude-code-master-template/
-├── 📄 README.md                          # This file
-├── 📋 CLAUDE.md                          # Main project instructions
-├── 📦 package.json                       # Node.js project configuration (enables Serena)
-├── 🔧 .claude/                           # Claude Code configuration
-│   ├── settings.local.json               # Permissions and security settings
-│   ├── 📚 docs/                          # Documentation cache (Context7 ready)
-│   └── ⚡ commands/                       # Custom slash commands
-│       ├── BMad/                         # BMAD Method commands
-│       │   ├── agents/                   # 10 specialized AI agents
-│       │   └── tasks/                    # Development task definitions
-│       ├── custom/context7/              # 4 Context7 documentation commands
-│       └── imports/                      # Temporary project-specific commands
-├── 🧠 .bmad-core/                        # BMAD Method core configuration
-│   ├── agents/                           # Core agent definitions (Analyst, PM, etc.)
-│   ├── tasks/                            # Task templates and workflows
-│   ├── templates/                        # Document templates (PRD, architecture, etc.)
-│   ├── workflows/                        # Development workflow definitions
-│   └── data/                             # Knowledge base and best practices
-├── 🔍 .serena/                           # Serena MCP configuration
-│   ├── project.yml                       # Serena project configuration
-│   ├── memories/                         # Project knowledge base
-│   └── cache/                            # Semantic analysis cache
-└── ⚙️ claude-configs/                    # Language-specific configurations
-    ├── CLAUDE.md                         # Configuration usage guide
-    └── claude-python.md                  # Comprehensive Python dev config
-```
+### 📊 Monday Morning Dashboard
+*Real-time capacity and project status overview*
 
 ---
 
-## 🔧 Configuration Options
+## 📊 Impact & Validation
 
-### Language-Specific Configurations
+### 🎯 Workplace Success Metrics
+- **📈 Target Adoption**: 80% of colleagues using daily within first month
+- **⏰ Efficiency Goal**: Reduce Monday planning from 30+ to 12 minutes
+- **📝 Capture Rate**: 90% of urgent interruptions systematically documented
+- **⚡ Speed Requirement**: Task capture under 30 seconds during high-pressure periods
 
-The template includes comprehensive configurations for different technology stacks:
+### 🏢 Real-World Validation
+- **👥 User Base**: 8-12 professional architects and designers
+- **📍 Location**: Victorian architecture office (Fraser's current workplace)
+- **🔄 Feedback Loop**: Direct access for user research and iterative improvement
+- **📊 Metrics**: Sustained usage over 3+ months demonstrating lasting value
 
-#### 🐍 Python Development (`claude-python.md`)
-- **Package Management**: UV-based dependency management
-- **Testing**: pytest with comprehensive patterns
-- **Code Quality**: Ruff formatting and linting
-- **Frameworks**: FastAPI, Pydantic v2 patterns
-- **Database**: Naming conventions and best practices
-
-#### 🚀 Extensible Framework
-Create new language configurations by following the established pattern:
-
-```bash
-# Create a new language configuration
-cp claude-configs/claude-python.md claude-configs/claude-javascript.md
-# Edit to include JavaScript/Node.js specific guidance
-```
-
-### MCP Server Configuration
-
-Pre-configured MCP servers include:
-
-- **Context7**: Documentation retrieval and intelligent caching system
-- **Serena**: Token-efficient semantic code analysis with hybrid workflow approach
-- **Playwright**: AI-powered browser automation using accessibility tree (not screenshots)
-- **Sequential-thinking**: Dynamic problem-solving through structured thought processes
-- **Supabase**: Complete project management, database operations, and development branching
-- **Brave Search**: Comprehensive web search with fresh, unbiased results
-- **Extensible**: Easy integration framework for additional MCP servers
-
-#### Hybrid Workflow Benefits
-- **Token Efficiency**: Serena's semantic search reduces the need for full file reads
-- **User Control**: All code changes go through familiar Claude Code editing interface
-- **Smart Discovery**: Use Serena to locate targets, Claude Code to implement changes
-- **Knowledge Building**: Persistent memory system for project understanding
+### 💼 Portfolio Impact
+- **🎯 Technical Demonstration**: Modern React/TypeScript/Supabase implementation
+- **🤝 User-Centered Design**: Real user feedback and adoption evidence
+- **📈 Business Value**: Quantifiable productivity improvements
+- **🌟 Professional References**: Supervisor and colleague testimonials
 
 ---
 
-## 📚 Development Methodologies
+## 🧑‍💻 Career Transition Story
 
-### 🎯 BMAD Method (Pre-Installed)
+### 🏗️ Architecture → 💻 IT
 
-The **Breakthrough Method of Agile AI-Driven Development** comes fully integrated:
+**Fraser Brown** is transitioning from architecture to IT, leveraging domain expertise to create practical software solutions. VibeWorks represents the culmination of this journey - applying newly acquired programming skills to solve real workplace challenges.
 
-#### Planning Phase Agents
-- **🔍 Analyst**: Requirements gathering and stakeholder analysis
-- **📋 PM**: Project management and coordination
-- **🏗️ Architect**: System design and technical architecture
+### 🎯 Why This Project Matters
 
-#### Development Phase Agents
-- **👥 SM**: Scrum Master for process facilitation
-- **💻 Dev**: Development execution and implementation
-- **🧪 QA**: Quality assurance and testing
+**Domain Expertise Application:**
+- Deep understanding of architecture office workflows and pain points
+- Translation of industry-specific challenges into technical requirements
+- User experience design informed by CAD software familiarity
 
-#### Specialized Agents
-- **👤 UX Expert**: User experience design and analysis
-- **📊 PO**: Product Owner for feature prioritization
-- **🤖 BMAD Master**: Overall methodology coordination
+**Technical Skills Demonstration:**
+- Modern full-stack development with React, TypeScript, and Supabase
+- AI integration and natural language processing
+- Database design reflecting complex project relationships
+- Professional development practices and deployment automation
 
+**Real-World Problem Solving:**
+- Genuine workplace challenges with measurable business impact
+- User research and iterative development with actual colleagues
+- Change management and technology adoption in professional environment
 
+### 🚀 Portfolio Differentiation
 
----
-
-## 🛠️ Advanced Features
-
-### 📖 Context7 Documentation Management
-
-Four specialized commands for comprehensive documentation workflows:
-
-| Command | Purpose | Use Case |
-|---------|---------|----------|
-| `/context7:retrieve-docs` | Fresh documentation retrieval | Getting latest library docs |
-| `/context7:read-docs` | Local-first reading | Cost-effective doc access |
-| `/context7:list-docs` | Cache inventory | Managing documentation cache |
-| `/context7:refresh-docs` | Selective updates | Keeping docs current |
-
-### 🔍 Serena Semantic Analysis
-
-Token-efficient code navigation with intelligent semantic tools:
-
-| Tool | Purpose | Use Case |
-|------|---------|----------|
-| `search_for_pattern` | Find code patterns across codebase | Locating specific functions or patterns |
-| `get_symbols_overview` | High-level file structure analysis | Understanding code organization without full reads |
-| `find_symbol` | Semantic symbol search | Finding classes, methods, variables |
-| `write_memory` | Build project knowledge base | Storing insights for future reference |
-
-#### Hybrid Workflow Advantage
-- **Discovery Phase**: Serena locates exact code sections needing changes
-- **Edit Phase**: Claude Code's familiar Read → Edit tools for modifications  
-- **Review Phase**: User approves all changes through Claude Code interface
-- **Efficiency**: Dramatically reduces tokens while maintaining full user control
-
-### 🎭 Playwright Browser Automation
-
-AI-powered browser automation using accessibility tree for reliable, deterministic testing:
-
-| Tool | Purpose | Use Case |
-|------|---------|----------|
-| `browser_navigate` | Navigate to URLs | Opening web pages for testing |
-| `browser_snapshot` | Capture accessibility snapshots | Understanding page structure without vision models |
-| `browser_click` | Click elements using accessibility tree | Interacting with buttons, links, forms |
-| `browser_type` | Type text into forms | Filling out forms and inputs |
-| `browser_evaluate` | Execute JavaScript | Running custom scripts in browser context |
-
-#### Key Advantages
-- **No Screenshots Required**: Uses structured accessibility data instead of vision models
-- **Fast & Deterministic**: Reliable automation without pixel-based ambiguity
-- **Multi-Browser Support**: Chrome, Firefox, WebKit compatibility
-- **Real Browser Environment**: Full JavaScript execution and modern web features
-
-### 🧠 Sequential-thinking Problem Solving
-
-Dynamic and reflective problem-solving through structured thought processes:
-
-| Feature | Purpose | Use Case |
-|---------|---------|----------|
-| Dynamic Thought Sequences | Adjustable reasoning steps | Complex planning and analysis |
-| Revision Capabilities | Question and revise previous thoughts | Iterative problem refinement |
-| Branching Approaches | Explore alternative solutions | Decision tree exploration |
-| Session State Management | Maintain context across interactions | Long-running problem solving |
-
-#### Problem-Solving Benefits
-- **Adaptive Planning**: Adjust reasoning depth based on problem complexity
-- **Iterative Refinement**: Revise and improve solutions through structured thinking
-- **Transparent Process**: Clear visibility into AI reasoning steps
-- **Complex Analysis**: Handle multi-faceted problems systematically
-
-### 🗄️ Supabase Database Management
-
-Complete Supabase project management with development-safe workflows:
-
-| Tool Category | Purpose | Key Tools |
-|---------------|---------|-----------|
-| **Project Management** | List, create, manage projects | `list_projects`, `create_project`, `get_project` |
-| **Database Operations** | SQL execution and schema management | `execute_sql`, `apply_migration`, `list_tables` |
-| **Development Branching** | Safe testing environments | `create_branch`, `merge_branch`, `reset_branch` |
-| **Debugging & Monitoring** | Logs and project insights | `get_logs`, `get_advisors` |
-
-#### Development Workflow Benefits
-- **Safe Testing**: Development branches for risk-free experimentation
-- **Read-Only Mode**: Connect to production data safely
-- **Comprehensive Management**: 20+ tools for complete project control
-- **Migration Support**: Systematic database evolution tracking
-
-### 🔍 Brave Search Web Research
-
-Comprehensive web search capabilities that complement Claude's built-in search:
-
-| Feature | Purpose | Use Case |
-|---------|---------|----------|
-| Fresh Results | Get the most current information | Breaking news, recent developments, latest documentation |
-| Unbiased Search | Independent search without filter bubbles | Research, fact-checking, diverse perspectives |
-| Comprehensive Coverage | Wide range of sources and content types | Market research, technical resources, academic content |
-| API Integration | Structured search results for AI processing | Data gathering, content analysis, research automation |
-
-#### Complementary Search Strategy
-- **Built-in Search**: Quick, conversational queries and general knowledge
-- **Brave Search**: Fresh results, comprehensive research, current events, and specialized content
-- **Combined Power**: Best of both worlds for thorough information gathering
-
-### 🔐 Security-First Permissions
-
-Carefully curated permissions system:
-
-- ✅ **Development Operations**: File management, git operations, testing
-- ✅ **Package Management**: npm, pip, cargo, etc.
-- ✅ **Documentation Access**: Trusted sources (Anthropic, GitHub, MDN)
-- ❌ **Restricted Operations**: Potentially dangerous system commands
-
-### 🚀 GitHub CLI Integration
-
-Ready for seamless GitHub operations:
-
-- Repository management
-- Pull request workflows
-- Issue tracking
-- Actions integration
-
----
-
-## 📖 Documentation
-
-### 📚 Included Guides
-
-- **[CLAUDE.md](CLAUDE.md)**: Complete template overview and usage instructions
-- **[claude-configs/](claude-configs/)**: Language-specific configuration guides
-- **[.bmad-core/](/.bmad-core/)**: BMAD Method documentation and workflows
-
-### 🌐 External Resources
-
-- **[Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code)**: Official Claude Code guide
-- **[BMAD Method](https://github.com/thebrownproject/BMAD-METHOD)**: Complete BMAD methodology
-
-### 🔄 Staying Updated
-
-```bash
-# Update BMAD Method to latest version
-npx bmad-method@latest install
-
-# The template is designed to evolve - watch this repository for updates
-```
+Unlike bootcamp projects or tutorials, VibeWorks demonstrates:
+- **🎯 Practical Problem Solving**: Real workplace inefficiencies with measurable solutions
+- **👥 User-Centered Development**: Authentic user feedback and adoption validation
+- **🏢 Business Value Creation**: Quantifiable productivity improvements and supervisor endorsement
+- **🔄 Industry Knowledge Transfer**: Architecture expertise applied to software development
 
 ---
 
 ## 🤝 Contributing
 
-We welcome contributions to improve the Claude Code Master Template!
+We welcome contributions to improve VibeWorks! This project serves both as a practical workplace solution and a portfolio demonstration.
 
-### 🎯 Areas for Contribution
-
-- **New Language Configurations**: Add support for additional programming languages
-- **Enhanced MCP Integrations**: Develop new MCP server configurations
-- **Improved Workflows**: Enhance BMAD Method tasks and templates
-- **Documentation**: Improve guides and examples
+### 🛠️ Areas for Contribution
+- **🎨 UI/UX Improvements**: Enhance the CAD-familiar interface patterns
+- **🤖 AI Features**: Improve email processing accuracy and task extraction
+- **📊 Analytics**: Better capacity planning and productivity metrics
+- **🧪 Testing**: Expand test coverage and end-to-end scenarios
+- **📖 Documentation**: Improve setup guides and architecture documentation
 
 ### 📝 How to Contribute
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+1. **🍴 Fork** the repository
+2. **🌿 Create** a feature branch (`git checkout -b feature/amazing-feature`)
+3. **✅ Test** your changes thoroughly
+4. **💬 Commit** with clear messages (`git commit -m 'Add amazing feature'`)
+5. **🚀 Push** to your branch (`git push origin feature/amazing-feature`)
+6. **📝 Open** a Pull Request with detailed description
 
 ### 🐛 Reporting Issues
 
-Found a bug or have a suggestion? [Open an issue](https://github.com/thebrownproject/claude-code-master-template/issues) with:
-
-- Clear description of the problem or suggestion
+Found a bug or have a suggestion? [Open an issue](https://github.com/thebrownproject/vibeworks/issues) with:
+- Clear description of the problem or enhancement
 - Steps to reproduce (for bugs)
-- Your environment details
 - Expected vs actual behavior
+- Your environment details (browser, OS, etc.)
 
 ---
 
@@ -390,24 +366,23 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- **[Anthropic](https://anthropic.com)** for Claude Code and Claude AI
-- **[Cole Medin](https://github.com/coleam00)** for development patterns and Python configuration inspiration
-- **[BMAD Method](https://github.com/thebrownproject/BMAD-METHOD)** for agile AI-driven development framework
-- **[Context7](https://context7.ai)** for intelligent documentation management
-- **[Serena](https://github.com/thebrownproject/serena)** for token-efficient semantic code analysis
-- **[Microsoft Playwright](https://playwright.dev)** for browser automation and testing capabilities
-- **[Model Context Protocol](https://modelcontextprotocol.io)** for sequential-thinking problem-solving framework
-- **[Supabase](https://supabase.com)** for comprehensive database management and development workflows
-- **[Brave Search](https://brave.com/search)** for providing fresh, unbiased web search capabilities
+- **🏢 Architecture Office Colleagues**: For honest feedback and real-world validation
+- **🤖 [Anthropic](https://anthropic.com)**: For Claude AI and development assistance
+- **⚛️ [Vercel](https://vercel.com)**: For Next.js framework and deployment platform
+- **🗄️ [Supabase](https://supabase.com)**: For PostgreSQL backend and real-time features
+- **🧠 [Google](https://ai.google.dev/)**: For Gemini AI processing capabilities
+- **🎨 [Shadcn](https://ui.shadcn.com/)**: For accessible component design system
 
 ---
 
 <div align="center">
 
-**Ready to revolutionize your development workflow?**
+**Transforming Architecture Office Management, One Project at a Time**
 
 ⭐ Star this repository • 🍴 Fork it • 📢 Share it
 
-[Get Started](#-quick-start) • [View Documentation](CLAUDE.md) • [Report Issues](https://github.com/thebrownproject/claude-code-master-template/issues)
+[🚀 Get Started](#-quick-start) • [📖 View Documentation](docs/) • [🐛 Report Issues](https://github.com/thebrownproject/vibeworks/issues)
 
-</div># vibeworks
+*Built with ❤️ by Fraser Brown during his Architecture → IT transition*
+
+</div>
